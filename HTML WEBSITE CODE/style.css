@@ -1,0 +1,91 @@
+/*header style*/
+
+html, body {
+
+   height: 100%;
+   
+   margin: 0;
+   
+   padding: 0;
+   
+   }
+header {
+    text-align: center; 
+    padding: 20px;
+    border-style: double;
+    background-color: #2F5233;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:larger;
+ }
+ /*navigation menu style*/
+ nav {
+    text-align: center;
+    border-style: double;
+    word-spacing: 30px;
+    Padding: 10px;
+    background-color: #94C973;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ nav a {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    border-style: double;
+ }
+
+ /*creating the two-column layout*/
+ *{
+    box-sizing: border-box;
+ }
+ .row {
+    display: flex;
+ }
+ .post-text-box {
+    flex: 100%;
+    padding: 20px;
+    background-color: aliceblue;
+    border-style: double;
+ }
+ .profile {
+    flex: 50%;
+    padding: 20px;
+    text-align: right;
+    background-color:#B1D8B7;
+    border-style: double;
+ }
+ /*profile image and heading style*/
+ .profile img {
+    width: 100px;
+    
+    border-radius: 50%;
+ }
+ .profile h1 {
+    float: center;
+    text-align: center;
+ }
+
+ .profile p {
+    float:left;
+
+ }
+
+ footer {
+    text-align: center;
+    word-spacing: 30px;
+    background-color: #94C973;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 50px;
+    border-style: double;
+    height: 30%;
+    margin: 0;
+   
+    
+ }
+
+ footer a {
+    border-style: double;
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+ }
